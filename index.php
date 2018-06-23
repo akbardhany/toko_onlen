@@ -35,7 +35,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Toko Onlen</a>
+      <a class="navbar-brand" href="index.php">Toko Onlen</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -84,6 +84,9 @@
         <div class="modal-body">
           <div class="form-group">
             Masukan Nama : <input type="text" name="nama_customer" placeholder="nama" required />
+          </div>
+          <div class="form-group">
+            Masukan e-mail : <input type="text" name="email" placeholder="email" required />
           </div>
           <div class="form-group">
             Masukan Password : <input type="text" name="password" placeholder="password" required />
