@@ -83,16 +83,28 @@
         <form action="config/daftar.php" method="post">
         <div class="modal-body">
           <div class="form-group">
-            Masukan Nama : <input type="text" name="nama_customer" placeholder="nama" required />
-          </div>
-          <div class="form-group">
-            Masukan e-mail : <input type="text" name="email" placeholder="email" required />
-          </div>
-          <div class="form-group">
-            Masukan Password : <input type="text" name="password" placeholder="password" required />
-          </div>
-          <div class="form-group">
-            Masukan No Tlp : <input type="number" name="no_tlp" placeholder="+62..." required />
+            <table>
+              <tr>
+                <td>Masukan Nama</td>
+                <td>&nbsp;:&nbsp;</td>
+                <td><input type="text" name="nama_customer" placeholder="nama" required /></td>
+              </tr>
+              <tr>
+                <td>Masukan e-mail</td>
+                <td>&nbsp;:&nbsp;</td>
+                <td><input type="email" name="email" placeholder="email" required /></td>
+              </tr>
+              <tr>
+                <td>Masukan Password</td>
+                <td>&nbsp;:&nbsp;</td>
+                <td><input type="password" name="password" placeholder="password" required /></td>
+              </tr>
+              <tr>
+                <td>Masukan No Tlp</td>
+                <td>&nbsp;:&nbsp;</td>
+                <td><input type="tel" name="no_tlp" placeholder="+62..." required /></td>
+              </tr>
+            </table>
           </div>
         </div>
         <div class="modal-footer">
